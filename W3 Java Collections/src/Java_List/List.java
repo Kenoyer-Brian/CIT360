@@ -78,7 +78,7 @@ public class List {
 			
 			
 			// Prompts for where to remove from.
-			System.out.println("What would you like to remove? (list options at 0 and currently ends at " + (myCars.size()-1)+" )");
+			System.out.println("What would you like to remove? (list options start at 0 and currently end at " + (myCars.size()-1)+" )");
 			
 			// Assigns user for input for remove on list.
 			remove = userInput.nextInt();
