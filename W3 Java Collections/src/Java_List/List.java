@@ -12,7 +12,7 @@ import java.util.Scanner;
 /* @author ZEKE (AKA Brian Kenoyer)
 *Name: Brian Kenoyer
 *Class: CIT-360 
-*Date: October 10, 2019
+*Date: January 17, 2020
 */
 
 public class List {
