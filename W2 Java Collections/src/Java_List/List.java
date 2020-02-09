@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package Java_List;
 
 // Import of the Java List Utility
