@@ -74,19 +74,36 @@ public class JSON_Example {
 		
 	}/// End JSONToCar()
 	
-	
+	/**The main() Method
+	 * @param String[], args
+	 * @returns string
+	 */
 	public static void main(String[] args) {
+		
+		// Creates the auto object
 		Car auto = new Car();
+		
+		// sets the year
 		auto.setYear(1994);
+		
+		// sets the make
 		auto.setMake("BMW");
+		
+		// sets the model
 		auto.setModel("325is");
 		
+		//Creates json
 		String json = JSON_Example.carToJSON(auto);
-		System.out.println(json);
 		
+		// Displays the created json
+		System.out.println("The Json: "+json);
+		
+		// Converts from JSON to auto2
 		Car auto2 = JSON_Example.JSONToCar(json);
+		
+		// Displays the Data
 		System.out.println(auto2);
 		
 	}/// End main()
 
-}
+}///End JSON_Example

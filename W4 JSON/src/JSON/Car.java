@@ -89,7 +89,7 @@ public class Car {
 	public String toString() {
 		
 		// returns the String of output
-		return "Year: " + year + " Make: " + make + " Model: " + model;
+		return "Year: " + year + System.getProperty("line.separator") + "Make: " + make + System.getProperty("line.separator") + "Model: " + model;
 		
 	}/// End toString()
 	
