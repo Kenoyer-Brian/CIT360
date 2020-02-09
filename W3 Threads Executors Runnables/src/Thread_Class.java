@@ -2,10 +2,14 @@
 /* @author ZEKE (AKA Brian Kenoyer)
 *Name: Brian Kenoyer
 *Class: CIT-360 
-*Date: October 11, 2019
+*Date: January 22, 2020
 */
 
-// Start of Class Thread_One
+/**The Thread_One class
+ * Purpose: Runs one thread that extends thread
+ * @param  none
+ * @returns none
+ */
 class Thread_One extends Thread{
 	
 	// Run Method for Thread_Two
@@ -25,7 +29,13 @@ class Thread_One extends Thread{
 	
 }/// End of Thread_One
 
-//Start of Class Thread_One
+
+
+/**The Thread_Two class
+ * Purpose: Runs one thread that extends thread
+ * @param  none
+ * @returns none
+ */
 class Thread_Two extends Thread{
 	
 	// Run Method for Thread_Two
@@ -46,10 +56,17 @@ class Thread_Two extends Thread{
 }/// End of Thread_Two
 
 
-//Start of Class Thread_Class
+/**The Thread_Two class
+ * Purpose: Runs one thread that extends thread
+ * @param  none
+ * @returns none
+ */
 public class Thread_Class {
 
-	// Start of main() method
+	/**The main() Method
+	 * @param none
+	 * @returns none
+	 */
 	public static void main(String[] args) {
 		
 		// Creation of a new object (called obj1) for the Thread_One class
@@ -64,8 +81,6 @@ public class Thread_Class {
 		//Call to the run method within the Thread_Two Class through the object obj2
 		obj2.start();
 		
-
-
 		
 	}/// End of main()
 	
