@@ -1,10 +1,12 @@
+// Sets the package to Servlet
+package Servlet;
+
+
 /* @author ZEKE (AKA Brian Kenoyer)
 *Name: Brian Kenoyer
 *Class: CIT-360 
 *Date: February 16, 2020
 */
-
-package Servlet;
 
 //Import of the utility packages required to function
 import java.io.*;
@@ -67,7 +69,7 @@ public class ServletOne extends HttpServlet {
 	}/// End getServletInfo()
 		 
 	
-	/**The getServletConfig() 
+	/**The getServletConfig() Method
 	* @param none
 	* @returns config
 	*/
@@ -79,8 +81,9 @@ public class ServletOne extends HttpServlet {
 	}/// End getServletConfig()
 
 		 
-	/**
-	* @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
+	/**The service() Method
+	* @param HttpServletRequest request, HttpServletResponse response
+	* @returns none
 	*/
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -98,6 +101,7 @@ public class ServletOne extends HttpServlet {
 		
 		// Prints out to the console when the service method is triggered.
 		System.out.println("running service method");
+		
 		
 	}/// End service method
 
