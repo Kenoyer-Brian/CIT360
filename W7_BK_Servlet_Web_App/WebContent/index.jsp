@@ -1,10 +1,8 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+	<meta charset="UTF-8">
+	<title>index.jsp</title>
 </head>
 <body>
 	
@@ -12,14 +10,30 @@
 	<h1>Test of Servlet.</h1>
 		
 	<!-- This text is the instruction text -->
-	<h2>Press the button to test the servlet </h2>
+	<h2>Press the button to submit the form to the servlet </h2>
 	
-	<!-- This text is used to call the servlet and needs to be the name of the servlet -->
-	 <form action="ServletOne"> 
-	    
-	    <!-- This is the button that calls the servlet -->
-        <input type="submit" value="Servlet"> 
+	<!-- This text is used to call the servlet and sets the form section -->
+    <form action="Servlet" method="post">
+    
+		<!-- This is the Firstname input bar -->
+        <p>Firstname<input name="firstname" type="text" /> </p>
+        
+        <!-- This is the Lastname input bar -->
+        <p>Lastname<input name="lastname" type="text" /></p>
+        
+        <!-- This is the Address input bar -->
+        <p>Address<input name="address" type="text" /></p>
+        
+        <!-- This is the Phonenumber input bar -->
+        <p>Phone Number<input name="phonenum" type="tel" /></p>
+                
+        <!-- This is the Email input bar -->
+        <p>Email<input name="email" type="email" /></p>
+        
+        <!-- This is the submit button -->
+        <p><input type="submit" value="Servlet" /></p>
         
     </form> 
+    
 </body>
 </html>
