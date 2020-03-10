@@ -25,9 +25,10 @@ public class CircumferenceTest {
 		// Creates the variable output and sets it to 5.0 linked to circumferenceCircle()
 		Double output = test.circumferenceCircle(5.0);
 		
-		//
+		// creates the variable output that holds the answer from the program
 		Double CircumferenceAnswer = 31.4;
 		
+		// assert checks the answer with the output
 		assertEquals(CircumferenceAnswer, output);		
 		
 		

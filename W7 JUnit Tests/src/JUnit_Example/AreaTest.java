@@ -23,10 +23,13 @@ public class AreaTest {
 		// Creates the test object
 		CircleEquations test = new CircleEquations();
 		
+		// variable to hold the answer
 		Double areaAnswer = 78.5;
 		
+		// creates the variable output that holds the answer from the program
 		Double output = test.areaCircle(5.0);
 		
+		// assert checks the answer with the output
 		assertEquals(areaAnswer, output);		
 		
 		
