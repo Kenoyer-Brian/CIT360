@@ -17,7 +17,7 @@ public class CircumferenceTest {
 	 * @returns none
 	 */
 	@Test
-	public void CircumferenceTest() {
+	public void TestCircumference() {
 		
 		// Creates the test object
 		CircleEquations test = new CircleEquations();
